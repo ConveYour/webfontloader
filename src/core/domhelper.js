@@ -275,7 +275,7 @@ goog.scope(function () {
       'rel': 'stylesheet',
       'href': href,
       'media': (opt_async ? 'only x' : 'all'),
-      'crossorigin': 'anonymous'
+      'crossorigin':'anonymous'
     });
 
     var sheets = this.document_.styleSheets,
